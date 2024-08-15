@@ -1,0 +1,17 @@
+{
+  "name": "wizeline-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Tools.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
