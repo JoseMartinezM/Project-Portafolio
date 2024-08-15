@@ -1,4 +1,4 @@
-#Wizeline AI Usage Dashboard
+# Wizeline AI Usage Dashboard
 
 Project Overview
 This project was developed in collaboration with Wizeline, a global technology services provider that builds high-quality digital products and platforms. The goal was to create a dynamic web page that showcases a graph displaying the 50 most used AIs. The page allows users to filter these AIs by category and pricing model (free or paid).
