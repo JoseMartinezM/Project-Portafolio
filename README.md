@@ -39,4 +39,4 @@ I am always open to collaborating with enthusiastic individuals and teams on inn
 
 ## 📫 Get in Touch
 
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
+- **Email**: a01734279@tec.mx
