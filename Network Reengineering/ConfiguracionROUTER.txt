@@ -1,0 +1,175 @@
+no ip domain-lookup
+hostname RouterVlans
+enable password cisco1
+service password-encryption
+
+username cisco privilege 15 secret cisco
+
+line con 0
+login local
+
+line vty 0 4
+login local
+
+ip domain-name equipo6poc.com
+crypto key generate rsa 
+1024
+ip ssh version 2
+
+interface GigabitEthernet0/1
+ description Al internet ISP
+ ip address dhcp
+ duplex auto
+ speed auto
+ ip nat outside
+ no shutdown
+
+interface GigabitEthernet0/0
+ no shutdown
+ no ip address 
+ description trunk de vlans
+
+interface GigabitEthernet0/0.2
+ description vlan wifi
+ encapsulation dot1q 10
+ ip address 172.22.79.254 255.255.240.0
+ ip nat inside
+
+interface GigabitEthernet0/0.3
+ description vlan visitantes
+ encapsulation dot1q 20
+ ip address 172.22.87.254 255.255.248.0
+ ip nat inside
+
+interface GigabitEthernet0/0.4
+ description vlan residencias
+ encapsulation dot1q 30
+ ip address 172.22.91.254 255.255.252.0
+ ip nat inside
+
+interface GigabitEthernet0/0.5
+ description vlan ap
+ encapsulation dot1q 40
+ ip address 172.22.92.126 255.255.255.128
+
+interface GigabitEthernet0/0.6
+ description vlan camaras
+ encapsulation dot1q 50
+ ip address 172.22.92.190 255.255.255.192
+
+interface GigabitEthernet0/0.7
+ description vlan telefonia
+ encapsulation dot1q 60
+ ip address 172.22.92.222 255.255.255.224
+
+interface GigabitEthernet0/0.8
+ description vlan acceso
+ encapsulation dot1q 70
+ ip address 172.22.92.254 255.255.255.224
+
+interface GigabitEthernet0/0.9
+ description vlan interfon
+ encapsulation dot1q 80
+ ip address 172.22.93.14 255.255.255.240
+
+interface GigabitEthernet0/0.10
+ description vlan proveedores
+ encapsulation dot1q 90
+ ip address 172.22.93.30 255.255.255.240
+
+interface GigabitEthernet0/0.11
+ description vlan switches
+ encapsulation dot1q 100
+ ip address 172.22.93.46 255.255.255.240
+
+interface GigabitEthernet0/0.12
+ description vlan impresion
+ encapsulation dot1q 110
+ ip address 172.22.93.62 255.255.255.240
+
+interface GigabitEthernet0/0.13
+ description vlan deteccion
+ encapsulation dot1q 120
+ ip address 172.22.93.70 255.255.255.248
+
+ip route 0.0.0.0 0.0.0.0 gigabitEthernet0/1
+
+ip dhcp excluded-address 172.22.79.254
+ip dhcp excluded-address 172.22.87.254
+ip dhcp excluded-address 172.22.91.254
+ip dhcp excluded-address 172.22.92.126
+ip dhcp excluded-address 172.22.92.190
+ip dhcp excluded-address 172.22.92.222
+ip dhcp excluded-address 172.22.92.254
+ip dhcp excluded-address 172.22.93.14
+ip dhcp excluded-address 172.22.93.30
+ip dhcp excluded-address 172.22.93.46
+ip dhcp excluded-address 172.22.93.62
+ip dhcp excluded-address 172.22.93.70
+
+ip dhcp pool DHCP-VLAN-TECWIFI
+ network 172.22.64.0 255.255.240.0
+ default-router 172.22.79.254
+ dns-server 8.8.8.8
+
+ip dhcp pool DHCP-VLAN-TECVISITANTES
+ network 172.22.80.0 255.255.248.0
+ default-router 172.22.87.254
+ dns-server 8.8.8.8
+
+ip dhcp pool DHCP-VLAN-RESIDENCIAS
+ network 172.22.88.0 255.255.252.0
+ default-router 172.22.91.254
+ dns-server 8.8.8.8
+
+ip dhcp pool DHCP-VLAN-AP
+ network 172.22.92.0 255.255.255.128
+ default-router 172.22.92.126
+ dns-server 8.8.8.8
+
+ip dhcp pool DHCP-VLAN-CCTV
+ network 172.22.92.128 255.255.255.192
+ default-router 172.22.92.190
+ dns-server 8.8.8.8
+
+ip dhcp pool DHCP-VLAN-TELEFONIA
+ network 172.22.92.192 255.255.255.224
+ default-router 172.22.92.222
+ dns-server 8.8.8.8
+
+ip dhcp pool DHCP-VLAN-ACCESCONTROL
+ network 172.22.92.224 255.255.255.224
+ default-router 172.22.92.254
+ dns-server 8.8.8.8
+
+ip dhcp pool DHCP-VLAN-INTERFON
+ network 172.22.93.0 255.255.255.240
+ default-router 172.22.93.14
+ dns-server 8.8.8.8
+
+ip dhcp pool DHCP-VLAN-PROVEEDORES
+ network 172.22.93.16 255.255.255.240
+ default-router 172.22.93.30
+ dns-server 8.8.8.8
+
+
+ip dhcp pool DHCP-VLAN-IMPRESION
+ network 172.22.93.48 255.255.255.240
+ default-router 172.22.93.62
+ dns-server 8.8.8.8
+
+
+ip dhcp pool DHCP-VLAN-ALERTAMIENTO
+ network 172.22.93.64 255.255.255.248
+ default-router 172.22.93.70
+ dns-server 8.8.8.8
+
+ip access-list extended PAT
+ remark vlan wifi
+ permit ip 172.22.64.0 0.0.15.255 any
+ remark vlan visitantes
+ permit ip 172.22.80.0 0.0.7.255 any
+ remark vlan residencias
+ permit ip 172.22.88.0 0.0.3.255 any
+
+ip nat inside source list PAT interface GigabitEthernet0/1 overload

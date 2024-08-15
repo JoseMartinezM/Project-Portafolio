@@ -1,0 +1,140 @@
+no ip domain-lookup
+hostname SwitchVlans
+enable password cisco1
+service password-encryption
+
+username cisco privilege 15 secret cisco
+
+line con 0
+login local
+
+line vty 0 4
+login local
+
+ip domain-name equipo6poc.com
+crypto key generate rsa 
+1024
+ip ssh version 2
+
+vlan 10
+ name wifi
+
+vlan 20
+ name visitantes
+
+vlan 30
+ name residencias
+
+vlan 40
+ name AP
+
+vlan 50
+ name camaras
+
+vlan 60
+ name telefonia
+
+vlan 70
+ name acceso
+
+vlan 80
+ name interfon
+
+vlan 90
+ name proveedores
+
+vlan 100
+ name switches
+
+vlan 110
+ name impresion
+
+vlan 120
+ name deteccion
+
+interface FastEthernet0/1
+ description puerto trunk
+ switchport mode trunk
+
+interface FastEthernet0/2
+ description puerto AP vlan wifi
+ switchport mode access
+ switchport access vlan 10
+
+interface FastEthernet0/3
+ description puerto AP vlan visitantes
+ switchport mode access
+ switchport access vlan 20
+ no cdp enable
+
+interface FastEthernet0/4
+ description puerto AP vlan residencias
+ switchport mode access
+ switchport access vlan 30
+ no cdp enable
+
+interface FastEthernet0/5
+ description puerto HOST AP
+ spanning-tree portfast
+ switchport mode access
+ switchport access vlan 40
+ no cdp enable
+
+interface FastEthernet0/6
+ description puerto HOST vlan camaras
+ spanning-tree portfast
+ switchport mode access
+ switchport access vlan 50
+ no cdp enable
+
+interface FastEthernet0/7
+ description puerto HOST vlan telefonia
+ spanning-tree portfast
+ switchport mode access
+ switchport access vlan 60
+ no cdp enable
+
+interface FastEthernet0/8
+ description puerto HOST vlan acceso
+ spanning-tree portfast
+ switchport mode access
+ switchport access vlan 70
+ no cdp enable
+
+interface FastEthernet0/9
+ description puerto HOST vlan interfon
+ spanning-tree portfast
+ switchport mode access
+ switchport access vlan 80
+ no cdp enable
+
+interface FastEthernet0/10
+ description puerto HOST vlan proveedores
+ spanning-tree portfast
+ switchport mode access
+ switchport access vlan 90
+ no cdp enable
+
+interface FastEthernet0/12
+ description puerto HOST vlan impresion
+ spanning-tree portfast
+ switchport mode access
+ switchport access vlan 110
+ no cdp enable
+
+interface FastEthernet0/13
+ description puerto HOST vlan deteccion
+ spanning-tree portfast
+ switchport mode access
+ switchport access vlan 120
+ no cdp enable
+
+interface vlan1
+ shutdown
+
+interface vlan100
+ no shutdown
+ description IP administracion de switches
+ ip address 172.22.93.33 255.255.255.240
+
+ip default-gateway 172.22.93.46
