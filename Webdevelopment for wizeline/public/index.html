@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WizeLine</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="sidebar">
+        <div class="logo">
+            <img src="imgs/logomark.png" alt="logomark" id="logo_mark">
+            <img src="imgs/wordmark.png" alt="wordmark" id="word_mark">
+        </div>
+        <div id="filter_icon">
+            <img src="imgs/filter.png" alt="filter_button" width="40px">
+        </div>
+        <nav class="sidebar-options">
+            <button id="content">Content</button>
+            <button id="ecosystem">Ecosystem</button>
+            <button id="license">License</button>
+            <button id="purpose">Purpose</button>
+            <button id="free">Free</button>
+            <button id="paid">Paid</button>
+        </nav>
+        <button id="show-sidebar"></button>
+    </div>
+
+    <main class="container">
+        <div class="graph" style="display: none; text-align: center;">
+            <h2 class="hidden-title-graph">Título</h2>
+            <canvas id="chart-container" width="400" height="400"></canvas>
+        </div>
+        <button class="detail-btn">
+            <img src="imgs/arrow.png" alt="detail_button" width="40px" id="arrow_icon">
+        </button>         
+    </main>
+
+    <aside class="panel">
+        <div class="filters-btn hidden-filters">
+            <h4 id="panel-label">Filter By</h4>
+            <div class="license-filters hide-elements">
+                <button id="proprietaryButton">Proprietary</button>
+                <button id="openSourceButton">OpenSource</button>
+            </div>
+            
+            <div class="content-filters hide-elements">
+                <button id="codeButton">Code</button>
+                <button id="textButton">Text</button>
+                <button id="imageButton">Image</button>
+                <button id="videoButton">Video</button>
+                <button id="voiceButton">Voice</button>
+                <button id="musicButton">Music</button>
+                <button id="Button3d">3D</button>
+            </div>
+
+            <div class="ecosystem-filters hide-elements">
+                <button id="cloudservicessButton">Cloud</button>
+                <button id="foundationmodelsButton">Foundation</button>
+                <button id="applicationsButton">Applications</button>
+                <button id="infrastructureButton">Infrastructure</button>
+                <button id="dataandintegrationButton">Integration</button>
+            </div>
+           
+            <div class="purpose-filters hide-elements">
+                <button id="contentgenerationButton">Content generation</button>
+                <button id="speechgenerationButton">Speech generation</button>
+                <button id="insightsButton">Insights</button>
+                <button id="employeeengagementButton">Employee Engagement</button>
+                <button id="technicaldocumentationButton">Technical Documentation</button>
+                <button id="codewritingdButton">Code Writing</button>
+                <button id="visualsgenerationButton">Visuals Generation</button>
+                <button id="customersupportButton">Customer Support</button>
+                <button id="generalpurposeButton">General Purpose</button>
+            </div>
+            
+            <div class="free-filters hide-elements">
+                <button id="freetrialButton">Free Trial</button>
+                <button id="freeButton">Free</button>
+                <button id="freemiumButton">Freemium</button>
+            </div>
+            <div class="paid-filters hide-elements">
+                <button id="subscriptionbasedButton">Subscription Based</button>
+                <button id="tokenbasedButton">Token Based</button>
+                <button id="paidmultipleButton">Paid Multiple</button>
+            </div>
+        </div>
+          
+        <ul id="tools-list"></ul>
+        <ul class="hidden-list list" id="ai-list"></ul>
+
+        <div class="hidden-info">
+            <button id="back">
+                <img src="imgs/display.png" alt="display_button" width="40px" id="back-icon">
+            </button>
+            <h3 id="ai-name"></h3>
+        </div>
+
+        <button class="close-panel">
+            <img src="imgs/close.png" alt="detail_button" width="20px" id="close_icon">
+        </button>
+    </aside>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="script.js"></script>
+    <canvas id="chart-container" width="20" height="20"></canvas>
+</body>
+</html>
+
