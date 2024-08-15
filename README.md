@@ -1,19 +1,42 @@
-# CV
+# 🌟 CV & About Me
 
-I'm currently a Computer Science Engineer with a passion for developing innovative solutions through code. My focus areas include software development, machine learning, data analysis, and web development.
+## 👨‍🎓 Education
 
-About Me
+**Student**  
+*5th Semester, Computer Science Engineering*  
+ITESM Guadalajara
 
-🎓 Student: I'm in my 5th semester of Computer Science Engineering at ITESM Guadalajara.
+## 💻 Tech Enthusiast
 
-💻 Tech Enthusiast: I enjoy exploring new technologies, frameworks, and tools to stay updated in this ever-evolving field.
+I am deeply passionate about exploring and mastering new technologies, frameworks, and tools. My primary areas of interest include:
 
-🧠 Problem Solver: Whether it's a challenging algorithm or a complex software architecture, I love solving problems through coding.
+- **Software Development**: Crafting efficient and scalable applications.
+- **Machine Learning**: Implementing algorithms to create intelligent systems.
+- **Data Analysis**: Transforming raw data into actionable insights.
+- **Web Development**: Building dynamic and responsive web applications.
 
-🌱 Learning: Currently, I'm deep diving into AI and Machine Learning to expand my knowledge in this exciting domain.
+## 🧠 Problem Solver
 
-What You'll Find Here
+I excel at solving complex problems through code. Whether it's designing intricate algorithms or developing sophisticated software architectures, I am driven by the challenge of finding elegant solutions.
 
-Projects: My repository showcases a variety of projects ranging from web applications to machine learning models. Each project reflects my growth as an engineer and my dedication to writing clean, efficient code.
+## 🌱 Learning & Growth
 
-Collaborations: I enjoy working with like-minded individuals on innovative projects. If you have an idea or a project you'd like to collaborate on, feel free to reach out.
+Currently, I am focusing on expanding my knowledge in **AI** and **Machine Learning**. This journey includes diving into cutting-edge technologies and methodologies to stay at the forefront of innovation.
+
+## 🚀 What You'll Find Here
+
+### **Projects**
+
+Explore a variety of projects that showcase my expertise and dedication to software engineering. Each project is a reflection of my growth and commitment to creating high-quality, efficient solutions.
+
+- **Web Applications**: Modern and responsive web solutions.
+- **Machine Learning Models**: Intelligent systems and predictive models.
+- **Data Analysis**: Tools and techniques for analyzing and visualizing data.
+
+### **Collaborations**
+
+I am always open to collaborating with enthusiastic individuals and teams on innovative projects. If you have an exciting idea or project and would like to work together, please feel free to reach out.
+
+## 📫 Get in Touch
+
+- **Email**: [your.email@example.com](mailto:your.email@example.com)
