@@ -31,38 +31,41 @@ I excel at solving complex problems through code. Whether it's designing intrica
 
 Currently, I am focusing on expanding my knowledge in **AI** and **Machine Learning**. This journey includes diving into cutting-edge technologies and methodologies to stay at the forefront of innovation.
 
-## 🚀 What You'll Find Here
+## Projects
 
-### **Projects**
+### Biometric Authentication for Hospital SRS
+- Developed a comprehensive Software Requirements Specification (SRS) document for a biometric identification system aimed at improving patient security and data management in hospitals.
+- Defined use cases, functional requirements, and system architecture, ensuring compliance with industry standards.
 
-## Experience
+### Evolution of COVID-19 with R
+- Conducted data analysis on the evolution of COVID-19 using R, focusing on trend identification, predictive modeling, and data visualization.
+- Created detailed reports and visual dashboards to communicate findings effectively.
 
-### **Wizeline - AI Usage Dashboard**
-*Collaborated with Wizeline to create an AI usage dashboard*
-- Developed tools to monitor and analyze AI model performance and usage statistics.
-- Enhanced decision-making through the integration of data visualization techniques.
+### Network Reengineering
+- Collaborated on a project to redesign and optimize a network infrastructure, improving overall efficiency and security.
+- Implemented new protocols and configurations to enhance network performance.
 
-### **Biometric Identification System for Hospitals (SRS Document)**
-*Class Project*
-- Drafted a comprehensive Software Requirements Specification (SRS) document for a biometric identification system.
-- Focused on improving patient security and streamlining hospital operations through advanced biometric technologies.
+### Object-Oriented Programming: Console-Based Video Game
+- Developed a text-based console video game that applied core object-oriented programming concepts, including inheritance, polymorphism, abstract classes, operator overloading, and exception handling.
+- The game featured an interactive environment with multiple rooms, friendly characters, and antagonists, offering players an immersive experience.
 
-### **Text-Based Console Game (Object-Oriented Programming)**
-*Class Project*
-- Developed a text-based console game as part of an Object-Oriented Programming (OOP) course.
-- Implemented key OOP principles such as inheritance, polymorphism, abstract classes, operator overloading, and exception handling.
-- The game involved navigating through multiple rooms, interacting with friendly and antagonistic characters, and advancing through different levels.
+### Object-Oriented Programming Principles: Managing an Airport
+- Designed a C++ solution to address the saturation problem at the Mexico City International Airport (AICM) using object-oriented principles.
+- Implemented functionalities such as user management, flight reservations, and system responses to handle complex scenarios like overbooking and slot management.
 
-### **Airport Management System (Object-Oriented Thinking)**
-*Class Project*
-- Designed and implemented a system to manage the saturated operations of the Mexico City International Airport (AICM) using C++.
-- The system handled user data management, flight search, reservations, and cancellations while adhering to airport constraints.
-- Applied OOP concepts to solve real-world problems, including user authentication, polymorphism, and inheritance.
+### Programming Data Structures and Algorithms
+- Implemented fundamental data structures and algorithms, including sorting, searching, linked lists, binary search trees, graphs, and hash tables.
+- Applied these concepts to organize and secure data, particularly in the field of cybersecurity, by processing and analyzing large sets of IP addresses.
 
-### **Data Structures and Algorithms for Cybersecurity**
-*Class Project*
-- Implemented various algorithms and data structures such as sorting, searching, linked lists, binary search trees (BST), graphs, and hash tables.
-- Applied these structures to organize and retrieve data from a large set of IP addresses, focusing on cybersecurity applications.
+### Syntax Analyzer
+- Developed a syntax analyzer as part of a compiler design project, focusing on lexical analysis and parsing techniques.
+- Ensured accurate syntax checking and error reporting for various programming languages.
+
+### Web Development for Wizeline
+- Participated in the development of a web-based dashboard for Wizeline, integrating AI tools for real-time data analysis and decision-making support.
+- Collaborated with a team to deliver a user-friendly interface and robust backend services.
+
+
 
 
 ## Personal Interests
