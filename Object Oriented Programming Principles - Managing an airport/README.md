@@ -41,17 +41,6 @@ The system design is based on a UML diagram that outlines the classes and their 
 - **Booking Process**: Handles the booking process, checking seat availability, calculating prices, and updating the user’s kilometers.
 - **Cancellation Process**: Manages the cancellation of reservations and ensures that the seat is freed up for future bookings.
 
-## Testing
-
-The system was tested with the following scenarios:
-
-1. **Adding New Users**: Successfully added three new users.
-2. **Duplicate User Check**: Attempted to add an existing user; the system correctly identified the duplicate.
-3. **User Authentication**: Checked for a non-existent user, and the system responded with an appropriate error message.
-4. **Flight Search and Booking**: Successfully searched for a flight and made reservations for multiple passengers.
-5. **Seat Availability Check**: Tried to book an already occupied seat; the system correctly indicated the seat was unavailable.
-6. **Reservation Management**: The system displayed the correct reservation details, final price, and updated kilometers.
-7. **Reservation Cancellation**: Successfully canceled a reservation and updated the flight’s seat availability.
 
 ## Conclusion
 
