@@ -15,6 +15,14 @@ I am deeply passionate about exploring and mastering new technologies, framework
 - **Data Analysis**: Transforming raw data into actionable insights.
 - **Web Development**: Building dynamic and responsive web applications.
 
+## Skills
+
+- **Programming Languages:** C++, Python, Java, JavaScript
+- **Web Development:** HTML, CSS, React, Node.js
+- **Data Science:** Pandas, NumPy, Scikit-learn, Matplotlib
+- **Software Development:** Object-Oriented Programming (OOP), Data Structures, Algorithms
+- **Tools:** Git, Docker, Jupyter Notebook
+
 ## 🧠 Problem Solver
 
 I excel at solving complex problems through code. Whether it's designing intricate algorithms or developing sophisticated software architectures, I am driven by the challenge of finding elegant solutions.
@@ -26,14 +34,6 @@ Currently, I am focusing on expanding my knowledge in **AI** and **Machine Learn
 ## 🚀 What You'll Find Here
 
 ### **Projects**
-
-## Skills
-
-- **Programming Languages:** C++, Python, Java, JavaScript
-- **Web Development:** HTML, CSS, React, Node.js
-- **Data Science:** Pandas, NumPy, Scikit-learn, Matplotlib
-- **Software Development:** Object-Oriented Programming (OOP), Data Structures, Algorithms
-- **Tools:** Git, Docker, Jupyter Notebook
 
 ## Experience
 
