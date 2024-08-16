@@ -1,23 +1,24 @@
 # Wizeline AI Usage Dashboard
 
-Project Overview
-This project was developed in collaboration with Wizeline, a global technology services provider that builds high-quality digital products and platforms. The goal was to create a dynamic web page that showcases a graph displaying the 50 most used AIs. The page allows users to filter these AIs by category and pricing model (free or paid).
+## Project Overview
 
+This project was developed in partnership with **Wizeline**, a leading global technology services provider known for creating high-quality digital products and platforms. The primary objective was to design and implement a dynamic web dashboard that visualizes the 50 most utilized AIs. The dashboard allows users to seamlessly filter AIs by category and pricing model, providing valuable insights at a glance.
 
-Features
+## Key Features
 
-Interactive Graph: Displays the 50 most popular AIs, providing users with a visual representation of their usage.
+- **🌐 Interactive Visualization**: An intuitive graph displays the 50 most popular AIs, allowing users to quickly grasp usage trends and patterns.
 
-Filtering Options: Users can filter the AIs based on category and whether they are free or paid, making it easier to find relevant tools.
+- **🔍 Advanced Filtering**: Users can refine their search by selecting specific categories or pricing models (free vs. paid), making it easier to identify the most relevant AIs.
 
-Real-time Data: The page dynamically pulls data from a connected Wizeline database, ensuring that the information is always up to date.
+- **⏱️ Real-time Data Updates**: The dashboard pulls live data from Wizeline's connected database, ensuring that all displayed information is up-to-date and accurate.
 
-Technologies Used
+## Tech Stack
 
-HTML: For structuring the content of the web page.
+- **HTML**: Provides the structural foundation of the web page, organizing content for optimal accessibility.
 
-CSS: For styling and enhancing the user interface.
+- **CSS**: Enhances the visual appeal and user experience through responsive and stylish design elements.
 
-JavaScript: For adding interactivity and handling data visualization.
+- **JavaScript**: Powers interactivity and data manipulation, enabling real-time updates and dynamic graph rendering.
 
-MySQL: For managing and querying the database connected to the web page.
+- **MySQL**: Manages and queries the underlying database, ensuring efficient data retrieval and storage for the dashboard.
+
