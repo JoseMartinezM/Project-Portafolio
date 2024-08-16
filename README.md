@@ -27,13 +27,6 @@ Currently, I am focusing on expanding my knowledge in **AI** and **Machine Learn
 
 ### **Projects**
 
-
-## Education
-
-**Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM), Guadalajara**  
-B.Sc. in Computer Science Engineering  
-*Expected Graduation:* December 2025
-
 ## Skills
 
 - **Programming Languages:** C++, Python, Java, JavaScript
