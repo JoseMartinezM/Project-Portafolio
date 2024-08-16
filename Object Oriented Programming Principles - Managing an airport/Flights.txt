@@ -1,0 +1,12 @@
+2023-09-08 from Mexico to USA, Numero de vuelo 1234
+2023-09-08 from Mexico to Panama, Numero de vuelo 4321
+2023-09-08 from Mexico to Uganda, Numero de vuelo 2345
+2023-09-09 from Mexico to Venezuela, Numero de vuelo 3456
+2023-09-09 from Mexico to Francia, Numero de vuelo 5678
+2023-09-09 from Mexico to Canada, Numero de vuelo 6789
+2023-09-10 from Mexico to Alemania, Numero de vuelo 7890
+2023-09-10 from Mexico to USA, Numero de vuelo 1111
+2023-09-10 from Mexico to Canada, Numero de vuelo 2222
+2023-09-11 from Mexico to Puerto Rico, Numero de vuelo 3333
+2023-09-11 from Mexico to Guyana, Numero de vuelo 4444
+2023-09-11 from Mexico to Canada, Numero de vuelo 5555
