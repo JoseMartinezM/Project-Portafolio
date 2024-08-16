@@ -41,7 +41,7 @@ Currently, I am focusing on expanding my knowledge in **AI** and **Machine Learn
 - Conducted data analysis on the evolution of COVID-19 using R, focusing on trend identification, predictive modeling, and data visualization.
 - Created detailed reports and visual dashboards to communicate findings effectively.
 
-### Network Reengineering (2024)
+### [Network Reengineering] (2024)
 - Collaborated on a project to redesign and optimize a network infrastructure, improving overall efficiency and security.
 - Implemented new protocols and configurations to enhance network performance.
 
