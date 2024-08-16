@@ -6,9 +6,6 @@ This project involves the development of a text-based console game, applying the
 
 The player's objective is to explore the different rooms, interact with the characters, and face enemies to advance to the next world. The game progresses through a sequence of world exploration and confrontations with antagonistic characters. If the player loses to an enemy, the corresponding message will be displayed, and the game will end.
 
-## UML Diagram
-
-[Insert UML diagram here]
 
 ## Development
 
@@ -50,14 +47,3 @@ In the main code development, we used all the concepts mentioned earlier, starti
 
 Polymorphism is also used in this code by using pointers to the base class `Character` to store objects of the derived classes `Warrior` and `Friendly`. This allows treating objects of different derived classes as if they were objects of the base class, making it easier to process and manipulate multiple characters in a common data structure. For example, polymorphism is used when calling the `play()`, `receiveInteraction()`, and `printLifeBar()` methods on objects of the `Warrior` and `Friendly` classes through pointers to the base class `Character`. This promotes flexibility and code extensibility, as new classes derived from `Character` can be added easily without modifying existing code.
 
-## Conclusions
-
-### Rodrigo Emmanuel:
-I can say that I learned a lot from Object-Oriented Programming (OOP), knowing how to refine the codes we implement to solve everyday problems, and understanding that today we have such powerful tools like technology and software usage. Additionally, I learned about code reuse, making it more understandable when working. Therefore, I learned a lot and, in conjunction with what I had previously learned about OOP, I deepened my knowledge and understanding of the topics we covered throughout this course and applied in this project.
-
-In conclusion, Object-Oriented Programming is a powerful and flexible approach to software development, based on the creation and manipulation of objects, providing the necessary tools to model and solve complex problems in a modular, reusable, and easy-to-understand way.
-
-### Jose Manuel:
-Thanks to Object-Oriented Programming, I acquired a solid foundation for developing quality software. OOP allows us to adapt to changes and requirements of a project.
-
-In conclusion, OOP is an essential tool in modern software development and in the career of Computer Engineering. Through its resources, we can efficiently tackle the problem of the challenge. Similarly, OOP allows programmers to build efficiently in the rapidly evolving technological world.
