@@ -33,39 +33,37 @@ Currently, I am focusing on expanding my knowledge in **AI** and **Machine Learn
 
 ## Projects
 
-### Biometric Authentication for Hospital SRS
+### Biometric Authentication for Hospital SRS (2023)
 - Developed a comprehensive Software Requirements Specification (SRS) document for a biometric identification system aimed at improving patient security and data management in hospitals.
 - Defined use cases, functional requirements, and system architecture, ensuring compliance with industry standards.
 
-### Evolution of COVID-19 with R
+### Evolution of COVID-19 with R (2023)
 - Conducted data analysis on the evolution of COVID-19 using R, focusing on trend identification, predictive modeling, and data visualization.
 - Created detailed reports and visual dashboards to communicate findings effectively.
 
-### Network Reengineering
+### Network Reengineering (2024)
 - Collaborated on a project to redesign and optimize a network infrastructure, improving overall efficiency and security.
 - Implemented new protocols and configurations to enhance network performance.
 
-### Object-Oriented Programming: Console-Based Video Game
+### Object-Oriented Programming: Console-Based Video Game (2023)
 - Developed a text-based console video game that applied core object-oriented programming concepts, including inheritance, polymorphism, abstract classes, operator overloading, and exception handling.
 - The game featured an interactive environment with multiple rooms, friendly characters, and antagonists, offering players an immersive experience.
 
-### Object-Oriented Programming Principles: Managing an Airport
+### Object-Oriented Programming Principles: Managing an Airport (2023)
 - Designed a C++ solution to address the saturation problem at the Mexico City International Airport (AICM) using object-oriented principles.
 - Implemented functionalities such as user management, flight reservations, and system responses to handle complex scenarios like overbooking and slot management.
 
-### Programming Data Structures and Algorithms
+### Programming Data Structures and Algorithms (2023)
 - Implemented fundamental data structures and algorithms, including sorting, searching, linked lists, binary search trees, graphs, and hash tables.
 - Applied these concepts to organize and secure data, particularly in the field of cybersecurity, by processing and analyzing large sets of IP addresses.
 
-### Syntax Analyzer
+### Syntax Analyzer (2024)
 - Developed a syntax analyzer as part of a compiler design project, focusing on lexical analysis and parsing techniques.
 - Ensured accurate syntax checking and error reporting for various programming languages.
 
-### Web Development for Wizeline
+### Web Development for Wizeline (2024)
 - Participated in the development of a web-based dashboard for Wizeline, integrating AI tools for real-time data analysis and decision-making support.
 - Collaborated with a team to deliver a user-friendly interface and robust backend services.
-
-
 
 
 ## Personal Interests
