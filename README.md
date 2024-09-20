@@ -65,6 +65,11 @@ Currently, I am focusing on expanding my knowledge in **AI** and **Machine Learn
 - Participated in the development of a web-based dashboard for Wizeline, integrating AI tools for real-time data analysis and decision-making support.
 - Collaborated with a team to deliver a user-friendly interface and robust backend services.
 
+### [Multi-Agent System for Construction Site Surveillance](https://github.com/JoseMartinezM/Project-Portafolio/tree/main/Multi-Agent%20System%20for%20Construction%20Site%20Surveillance) (2024)
+- Developed a multi-agent system integrating drones, cameras, and security personnel for real-time monitoring and threat detection at a construction site.
+- Utilized YOLOv4 for intruder identification and coordinated agent communication for efficient threat response.
+
+
 
 ## Personal Interests
 
