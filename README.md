@@ -1,3 +1,5 @@
+*(All project in the repository are in Spanish but can be translated into English upon request.)*
+
 # 🌟 CV & About Me
 
 ## 👨‍🎓 Education
