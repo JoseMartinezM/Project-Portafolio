@@ -1,0 +1,26 @@
+{
+  "title": "Conócenos",
+  "subtitle": "Historia, Identidad, Datos",
+  "sections": [
+    {
+      "title": "¿Quienes sos?",
+      "description": "Banco de Alimentos Guadalajara es una organización sin fines de lucro con la misión de generar acceso a una alimentación digna para personas en situación vulnerable en nuestra comunidad. Nuestro objetivo es contribuir a la reducción de la inseguridad alimentaria que afecta a más de un millón doscientas mil personas en el Estado de Jalisco.<p>Actualmente, distribuimos alimento a más de 150,000 personas en 361 comunidades de la Zona Metropolitana de Guadalajara y del Interior del Estado de Jalisco. Mensualmente, movilizamos más de 1 millón 300 mil kilogramos de alimento para distribuirlos en la población en situación vulnerable.</p>",
+      "img": "/images/foto.png"
+    },
+    {
+      "title": "Identidad",
+      "description": "-Misión:<p>Generar acceso a una alimentación digna para personas en situación vulnerable en nuestra comunidad.</p>-Visión:<p>Abatir la pobreza alimentaria en Jalisco.</p>",
+      "img": "/images/foto.png"
+    },
+    {
+      "title": "Datos informativos",
+      "description": "Tenemos una plantilla de 85 colaboradores y el apoyo de 80 voluntarios diarios. En una gran bodega almacenamos y distribuimos los alimentos que se acopian diariamente. <p>Cada mes beneficiamos a más de 30,000 familias.</p>",
+      "img": "/images/foto.png"
+    },
+    {
+      "title": "El reto",
+      "description": "<p>-Alimentación adecuada</p>En la zona metropolitana de Guadalajara, aproximadamente 15% de la población vive en condiciones de pobreza, lo que significa que unas 1’200,000 personas no tienen acceso a una alimentación adecuada.<p>-Desperdicio de comida</p><p>Se produce mucha más comida de la que se necesita para alimentar a toda la población, pero los alimentos no llegan a todos y en su lugar, se desperdician. Sobra más de lo que falta.</p>",
+      "img": "/images/foto.png"
+    }
+  ]
+}

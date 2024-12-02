@@ -1,0 +1,15 @@
+{
+    "title": "Sobre Nosotros",
+    "description": "Somos una organización dedicada a mejorar la vida de las personas a través de nuestros servicios.",
+    "sections": [
+      {
+        "name": "Misión",
+        "description": "Nuestra misión es proporcionar alimentos y recursos a las comunidades más necesitadas."
+      },
+      {
+        "name": "Visión",
+        "description": "Nuestra visión es un mundo sin hambre y con igualdad de oportunidades para todos."
+      }
+    ]
+  }
+  

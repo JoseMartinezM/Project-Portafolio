@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "name": "Banco Diocesano de Alimentos de Guadalajara",
+    "position": { "lat": 20.640806, "lng": -103.293835 },
+    "hours": "Lunes a Viernes: 7:00 am - 5:00 pm",
+    "address": "Hacienda de la Calerilla 360, Santa María Tequepexpan, Tlaquepaque, Jalisco."
+  },
+  {
+    "id": 2,
+    "name": "Banco de Alimentos de Tepatitlán",
+    "position": { "lat": 20.8167, "lng": -102.7333 },
+    "hours": "Lunes a Viernes: 8:00 am - 4:00 pm",
+    "address": "Calle Hidalgo 123, Centro, Tepatitlán de Morelos, Jalisco."
+  },
+  {
+    "id": 3,
+    "name": "Banco de Alimentos de Puerto Vallarta",
+    "position": { "lat": 20.6534, "lng": -105.2253 },
+    "hours": "Lunes a Viernes: 8:00 am - 4:00 pm",
+    "address": "Calle Morelos 456, Centro, Puerto Vallarta, Jalisco."
+  },
+  {
+    "id": 4,
+    "name": "Banco de Alimentos de Lagos de Moreno",
+    "position": { "lat": 21.3567, "lng": -101.9308 },
+    "hours": "Lunes a Viernes: 8:00 am - 4:00 pm",
+    "address": "Calle Juárez 789, Centro, Lagos de Moreno, Jalisco."
+  },
+  {
+    "id": 5,
+    "name": "Banco de Alimentos de Ciudad Guzmán",
+    "position": { "lat": 19.7044, "lng": -103.4617 },
+    "hours": "Lunes a Viernes: 8:00 am - 4:00 pm",
+    "address": "Calle Hidalgo 321, Centro, Ciudad Guzmán, Jalisco."
+  },
+  {
+    "id": 6,
+    "name": "Banco de Alimentos de Autlán",
+    "position": { "lat": 19.7722, "lng": -104.3667 },
+    "hours": "Lunes a Viernes: 8:00 am - 4:00 pm",
+    "address": "Calle Morelos 654, Centro, Autlán de Navarro, Jalisco."
+  },
+  {
+    "id": 7,
+    "name": "Banco de Alimentos de Ocotlán",
+    "position": { "lat": 20.355, "lng": -102.7736 },
+    "hours": "Lunes a Viernes: 8:00 am - 4:00 pm",
+    "address": "Calle Juárez 234, Centro, Ocotlán, Jalisco."
+  },
+  {
+    "id": 8,
+    "name": "Banco de Alimentos de La Barca",
+    "position": { "lat": 20.2833, "lng": -102.55 },
+    "hours": "Lunes a Viernes: 8:00 am - 4:00 pm",
+    "address": "Calle Hidalgo 567, Centro, La Barca, Jalisco."
+  },
+  {
+    "id": 9,
+    "name": "Banco de Alimentos de Ameca",
+    "position": { "lat": 20.5461, "lng": -104.0458 },
+    "hours": "Lunes a Viernes: 8:00 am - 4:00 pm",
+    "address": "Calle Morelos 890, Centro, Ameca, Jalisco."
+  },
+  {
+    "id": 10,
+    "name": "Banco de Alimentos de Colotlán",
+    "position": { "lat": 22.1167, "lng": -103.2667 },
+    "hours": "Lunes a Viernes: 8:00 am - 4:00 pm",
+    "address": "Calle Juárez 345, Centro, Colotlán, Jalisco."
+  },
+  {
+    "id": 11,
+    "name": "Banco de Alimentos de Tamazula",
+    "position": { "lat": 19.6792, "lng": -103.25 },
+    "hours": "Lunes a Viernes: 8:00 am - 4:00 pm",
+    "address": "Calle Hidalgo 456, Centro, Tamazula de Gordiano, Jalisco."
+  },
+  {
+    "id": 12,
+    "name": "Banco de Alimentos de Chapala",
+    "position": { "lat": 20.2969, "lng": -103.1917 },
+    "hours": "Lunes a Viernes: 8:00 am - 4:00 pm",
+    "address": "Calle Morelos 123, Centro, Chapala, Jalisco."
+  },
+  {
+    "id": 13,
+    "name": "Banco de Alimentos de San Juan de los Lagos",
+    "position": { "lat": 21.2481, "lng": -102.3319 },
+    "hours": "Lunes a Viernes: 8:00 am - 4:00 pm",
+    "address": "Calle Juárez 678, Centro, San Juan de los Lagos, Jalisco."
+  },
+  {
+    "id": 14,
+    "name": "Asociación Mexicana de Bancos de Alimentos A.C.",
+    "position": { "lat": 20.6485, "lng": -103.325 },
+    "hours": "Lunes a Viernes: 7:00 am - 5:00 pm",
+    "address": "Pichón 1147, Colonia Morelos, Guadalajara, Jalisco."
+  },
+  {
+    "id": 15,
+    "name": "Banco de Alimentos de Zapopan",
+    "position": { "lat": 20.7236, "lng": -103.384 },
+    "hours": "Lunes a Viernes: 8:00 am - 4:00 pm",
+    "address": "Calle Hidalgo 123, Centro, Zapopan, Jalisco."
+  },
+  {
+    "id": 16,
+    "name": "Comedor Santa María",
+    "position": { "lat": 20.6765, "lng": -103.347 },
+    "hours": "Lunes a Viernes: 9:00 am - 3:00 pm",
+    "address": "Calle Morelos 456, Colonia Santa María, Guadalajara, Jalisco."
+  },
+  {
+    "id": 17,
+    "name": "Fundación Banco de Alimentos de Zapopan A.C.",
+    "position": { "lat": 20.7042, "lng": -103.396 },
+    "hours": "Lunes a Viernes: 8:00 am - 4:00 pm",
+    "address": "Avenida Patria 2000, Colonia Jardines Universidad, Zapopan, Jalisco."
+  }
+]

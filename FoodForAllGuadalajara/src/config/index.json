@@ -1,0 +1,141 @@
+{
+  "company": {
+    "name": "Banco de Alimentos Guadalajara",
+    "logo": "/images/logo.png"
+  },
+  "navigation": [
+    {
+      "name": "Inicio",
+      "href": ""
+    },
+    {
+      "name": "Conócenos",
+      "href": "conocenos"
+    },
+    {
+      "name": "Apadrinar",
+      "href": "apadrinar"
+    },
+    {
+      "name": "Recetas",
+      "href": "recetas"
+    },
+    {
+      "name": "Eventos",
+      "href": "eventos"
+    },
+    {
+      "name": "Localización",
+      "href": "localizacion"
+    }
+  ],
+  "callToAction": {
+    "text": "Get started",
+    "href": "#"
+  },
+  "mainHero": {
+    "title": "Banco de Alimentos",
+    "subtitle": "de Guadalajara.",
+    "description": "Banco de alimentos es una institución que proporciona alimentos a los más necesitados, trabajando con empresas y voluntarios para combatir el hambre.",
+    "img": "/images/happyTeam.jpeg",
+    "primaryAction": {
+      "text": "¡Apadrinar!",
+      "href": "#features"
+    },
+    "secondaryAction": {
+      "text": "Contáctanos",
+      "href": "mailto:contacto@bancodealimentos.com?subject=Contacto sobre Banco de Alimentos"    
+    }
+  },
+  "product": {
+    "title": "Nuestros Programas",
+    "items": [
+      {
+        "title": "Programa de Recolección de Alimentos",
+        "description": "Recopilamos alimentos de empresas y los distribuimos a quienes más lo necesitan, garantizando un uso adecuado de los recursos disponibles.",
+        "img": "/images/product1.jpg"
+      },
+      {
+        "title": "Voluntariado",
+        "description": "Únete a nuestro equipo de voluntarios para ayudar a distribuir alimentos y asistir en eventos para el bienestar de la comunidad.",
+        "img": "/images/product2.jpg"
+      }
+    ]
+  },
+  "features": {
+    "title": "Apadrinar",
+    "subtitle": "Ayuda a nuestra misión",
+    "description": "Apadrinar es la mejor forma de apoyar a quienes más lo necesitan, contribuyendo a la alimentación de miles de personas cada año.",
+    "items": [
+      {
+        "name": "Impacto Social",
+        "description": "Tu apoyo ayuda a mejorar la calidad de vida de muchas familias que no tienen acceso a suficientes alimentos.",
+        "icon": "/images/logo.png"
+      },
+      {
+        "name": "Transparencia",
+        "description": "Trabajamos con altos niveles de transparencia para que sepas exactamente cómo tu apoyo está beneficiando a los más necesitados.",
+        "icon": "/images/tailwindcss.svg"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Contribuye",
+    "items": [
+      {
+        "name": "Opción Básica",
+        "price": "$100",
+        "priceDetails": "por mes",
+        "features": [
+          "Apoyo a una familia",
+          "Boletín informativo",
+          "Agradecimiento digital"
+        ]
+      },
+      {
+        "name": "Opción Plus",
+        "price": "$50",
+        "priceDetails": "por mes",
+        "features": [
+          "Apoyo a cinco familias",
+          "Prioridad en eventos",
+          "Certificado de apadrinamiento"
+        ]
+      },
+      {
+        "name": "Opción Empresarial",
+        "price": "$200",
+        "priceDetails": "por mes",
+        "features": [
+          "Apoyo a veinte familias",
+          "Visibilidad empresarial",
+          "Participación en campañas"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "sections": [
+      {
+        "name": "Nuestra Historia",
+        "href": "#",
+        "content": "Fundado en 2005, Banco de Alimentos Guadalajara trabaja para aliviar el hambre en la comunidad, apoyado por empresas, voluntarios, y otros actores comprometidos."
+      },
+      {
+        "name": "Nuestra Misión",
+        "href": "#",
+        "content": "Nuestra misión es proporcionar alimentos a quienes más lo necesitan y asegurar que cada persona tenga acceso a una nutrición básica."
+      },
+      {
+        "name": "Nuestros Valores",
+        "href": "#",
+        "content": "Creemos en la transparencia, la solidaridad y el compromiso con nuestra comunidad para hacer frente a la inseguridad alimentaria."
+      }
+    ],
+    "socialMedia": {
+      "facebook": "https://www.facebook.com/BDAGDL",
+      "mail": "mailto:comunicacionbamx@bdalimentos.org",
+      "twitter": "https://www.facebook.com/BDAGDL"
+    }
+  }
+}

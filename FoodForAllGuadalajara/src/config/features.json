@@ -1,0 +1,18 @@
+{
+    "title": "Conócenos",
+    "subtitle": "Conoce los 4 sencillos pasos",
+    "description": "para apadrinar a alguien que te necesita",
+    "items": [
+      {
+        "name": "React.js",
+        "description": "React es una biblioteca JavaScript para construir interfaces de usuario.",
+        "icon": "/images/react.png"
+      },
+      {
+        "name": "Next.js",
+        "description": "Next.js es un framework para aplicaciones React renderizadas del lado del servidor.",
+        "icon": "/images/nextjs.svg"
+      }
+    ]
+  }
+  

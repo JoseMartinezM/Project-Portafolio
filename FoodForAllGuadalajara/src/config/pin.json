@@ -1,0 +1,42 @@
+{
+    "mainHero": {
+      "title": "",
+      "description": "",
+      "link": "#",
+      "img": ""
+    },
+    "items": [
+      {
+        "title": "Frijol 1 kg, Arroz 1 kg, Pastas 200 g (2), Azúcar 500 g, Avena 500 g, Soya 330 g, Lenteja 400 g, Aceite 500 ml, Trigo inflado 200 g",
+        "description": "",
+        "link": "Canasta básica",
+        "img": "/public/images/c1.jpeg"
+      },
+      {
+        "title": "4 variedades a costo de $ 3.00 | 12 kilos",
+        "description": "",
+        "link": "Frutas y verduras",
+        "img": "/public/images/z1.jpeg"
+      },
+      {
+        "title": "Mantequilla, Yogurt, Queso, Jamón / salchicha, Gelatina, Leche, Crema",
+        "description": "",
+        "link": "Embutidos y lácteos dos variedades",
+        "img": "/public/images/z2.jpeg"
+      },
+      {
+        "title": "Aderezos, Enlatados, Cereal, Galleta, Jugos, Pastas, Catsup, Frijol Frito, Fritura, Refresco, Despensa general",
+        "description": "",
+        "link": "Abarrotes cinco variedades",
+        "img": "/public/images/z4.jpg"
+      },
+      {
+        "title": "Limpieza, detergente, uso personal.",
+        "description": "",
+        "link": "Artículos de limpieza",
+        "img": "/public/images/z5.jpg"
+      }
+    ]
+  }
+  
+  
