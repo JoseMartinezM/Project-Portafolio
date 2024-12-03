@@ -48,16 +48,3 @@ This project was developed during HackMTY 2024 in Monterrey as part of the Banor
 2. Connect an iOS device or use the simulator.
 3. Build and run the project.
 
----
-
-## Contributing
-If you'd like to contribute or explore the project further, feel free to clone the repository, open issues, or submit pull requests.
-
----
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
----
-
-Thank you for checking out our HackMTY 2024 project! 🚀
