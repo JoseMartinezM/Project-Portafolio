@@ -34,6 +34,21 @@ I excel at solving complex problems through code. Whether it's designing intrica
 Currently, I am focusing on expanding my knowledge in **AI** and **Machine Learning**. This journey includes diving into cutting-edge technologies and methodologies to stay at the forefront of innovation.
 
 ## Projects
+### [Multi-Agent System for Construction Site Surveillance](https://github.com/JoseMartinezM/Project-Portafolio/tree/main/Multi-Agent%20System%20for%20Construction%20Site%20Surveillance) (2024)
+- Developed a multi-agent system integrating drones, cameras, and security personnel for real-time monitoring and threat detection at a construction site.
+- Utilized YOLOv4 for intruder identification and coordinated agent communication for efficient threat response.
+
+### [Web Development for Wizeline](https://github.com/JoseMartinezM/Project-Portafolio/tree/main/Webdevelopment%20for%20wizeline) (2024)
+- Participated in the development of a web-based dashboard for Wizeline, integrating AI tools for real-time data analysis and decision-making support.
+- Collaborated with a team to deliver a user-friendly interface and robust backend services.
+
+### [Network Reengineering](https://github.com/JoseMartinezM/Project-Portafolio/tree/main/Network%20Reengineering) (2024)
+- Collaborated on a project to redesign and optimize a network infrastructure, improving overall efficiency and security.
+- Implemented new protocols and configurations to enhance network performance.
+
+### [Syntax Analyzer](https://github.com/JoseMartinezM/Project-Portafolio/tree/main/Syntax%20Analyzer) (2024)
+- Developed a syntax analyzer as part of a compiler design project, focusing on lexical analysis and parsing techniques.
+- Ensured accurate syntax checking and error reporting for various programming languages.
 
 ### [Biometric Authentication for Hospital SRS](https://github.com/JoseMartinezM/Project-Portafolio/tree/main/Biometric%20Identification%20System%20for%20Hospitals%20-%20SRS%20Document) (2023)
 - Developed a comprehensive Software Requirements Specification (SRS) document for a biometric identification system aimed at improving patient security and data management in hospitals.
@@ -43,9 +58,9 @@ Currently, I am focusing on expanding my knowledge in **AI** and **Machine Learn
 - Conducted data analysis on the evolution of COVID-19 using R, focusing on trend identification, predictive modeling, and data visualization.
 - Created detailed reports and visual dashboards to communicate findings effectively.
 
-### [Network Reengineering](https://github.com/JoseMartinezM/Project-Portafolio/tree/main/Network%20Reengineering) (2024)
-- Collaborated on a project to redesign and optimize a network infrastructure, improving overall efficiency and security.
-- Implemented new protocols and configurations to enhance network performance.
+### [Programming Data Structures and Algorithms](https://github.com/JoseMartinezM/Project-Portafolio/tree/main/Programming%20of%20data%20structures%20and%20fundamental%20algorithms) (2023)
+- Implemented fundamental data structures and algorithms, including sorting, searching, linked lists, binary search trees, graphs, and hash tables.
+- Applied these concepts to organize and secure data, particularly in the field of cybersecurity, by processing and analyzing large sets of IP addresses.
 
 ### [Object-Oriented Programming: Console-Based Video Game](https://github.com/JoseMartinezM/Project-Portafolio/tree/main/Object%20Oriented%20Programing%20-%20Console%20Based%20Videogame) (2023)
 - Developed a text-based console video game that applied core object-oriented programming concepts, including inheritance, polymorphism, abstract classes, operator overloading, and exception handling.
@@ -54,22 +69,6 @@ Currently, I am focusing on expanding my knowledge in **AI** and **Machine Learn
 ### [Object-Oriented Programming Principles: Managing an Airport](https://github.com/JoseMartinezM/Project-Portafolio/tree/main/Object%20Oriented%20Programming%20Principles%20-%20Managing%20an%20airport) (2023)
 - Designed a C++ solution to address the saturation problem at the Mexico City International Airport (AICM) using object-oriented principles.
 - Implemented functionalities such as user management, flight reservations, and system responses to handle complex scenarios like overbooking and slot management.
-
-### [Programming Data Structures and Algorithms](https://github.com/JoseMartinezM/Project-Portafolio/tree/main/Programming%20of%20data%20structures%20and%20fundamental%20algorithms) (2023)
-- Implemented fundamental data structures and algorithms, including sorting, searching, linked lists, binary search trees, graphs, and hash tables.
-- Applied these concepts to organize and secure data, particularly in the field of cybersecurity, by processing and analyzing large sets of IP addresses.
-
-### [Syntax Analyzer](https://github.com/JoseMartinezM/Project-Portafolio/tree/main/Syntax%20Analyzer) (2024)
-- Developed a syntax analyzer as part of a compiler design project, focusing on lexical analysis and parsing techniques.
-- Ensured accurate syntax checking and error reporting for various programming languages.
-
-### [Web Development for Wizeline](https://github.com/JoseMartinezM/Project-Portafolio/tree/main/Webdevelopment%20for%20wizeline) (2024)
-- Participated in the development of a web-based dashboard for Wizeline, integrating AI tools for real-time data analysis and decision-making support.
-- Collaborated with a team to deliver a user-friendly interface and robust backend services.
-
-### [Multi-Agent System for Construction Site Surveillance](https://github.com/JoseMartinezM/Project-Portafolio/tree/main/Multi-Agent%20System%20for%20Construction%20Site%20Surveillance) (2024)
-- Developed a multi-agent system integrating drones, cameras, and security personnel for real-time monitoring and threat detection at a construction site.
-- Utilized YOLOv4 for intruder identification and coordinated agent communication for efficient threat response.
 
 
 
