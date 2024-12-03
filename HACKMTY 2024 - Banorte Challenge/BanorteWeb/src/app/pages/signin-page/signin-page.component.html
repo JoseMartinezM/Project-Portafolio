@@ -1,0 +1,53 @@
+<div class="login-area">
+    <div class="row m-0">
+        <div class="col-lg-6 col-md-12 p-0">
+            <div
+                class="login-image"
+                style="background-image: url(images/fotos/edificioBanorte.jpg);"
+            >
+
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12 p-0">
+            <div class="login-content">
+                <div class="d-table">
+                    <div class="d-table-cell">
+                        <div class="login-form">
+                            <div class="logo">
+                                <a routerLink="/" class="d-inline-block">
+                                    <img src="images/logos/BanorteNegro.png" alt="image">
+                                </a>
+                            </div>
+                            <h3>Bienvenido</h3>
+                            <p>Eres nuevo? <a routerLink="/signup">Crea una cuenta</a></p>
+                            <form [formGroup]="signinForm" (ngSubmit)="onSubmit()">
+                                <div class="form-group mb-3">
+                                    <input formControlName="username" type="username" name="username" id="username" placeholder="Email" class="form-control">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input formControlName="password" type="password" name="password" id="password" placeholder="Contraseña" class="form-control">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Inicia Sesión</button>
+                                <div class="forgot-password">
+                                    <a routerLink="/">Forgot Password?</a>
+                                </div>
+                                <!-- <div class="connect-with-social">
+                                    <button type="submit" class="facebook">
+                                        <i class="fab fa-facebook-square"></i> Connect with Facebook
+                                    </button>
+                                    <button type="submit" class="google">
+                                        <i class="fab fa-google"></i> Connect with Google
+                                    </button>
+                                </div> -->
+                            </form>
+
+                            
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

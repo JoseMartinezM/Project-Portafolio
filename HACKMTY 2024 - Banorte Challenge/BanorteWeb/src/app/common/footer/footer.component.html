@@ -1,0 +1,148 @@
+<!-- Default Footer -->
+<footer
+    class="footer-area"
+    [ngClass]="{'d-none': router.url === '/index-7' || router.url === '/personal' || router.url === '/business' || router.url === '/how-it-works' || router.url === '/about-2' || router.url === '/contact-2'}"
+>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="single-footer-widget">
+                    <div class="logo">
+                        <a routerLink="/">
+                            <img src="images/logos/BanorteLogoB.png" alt="logo">
+                        </a>
+                        <p style="color: white;">En Banorte, nuestro compromiso es ayudarte a alcanzar tus metas financieras. Ofrecemos soluciones accesibles y seguras para que puedas crecer con confianza.</p>
+                    </div>
+                    <ul class="social-links">
+                        <li><a style="color: white;" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a style="color: white;" href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a style="color: white;" href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a style="color: white;" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="single-footer-widget pr-5">
+                    <h3 style="color: white;">Company</h3>
+                    <ul class="list">
+                        <li><a style="color: white;" routerLink="/">Términos Legales</a></li>
+                        <li><a style="color: white;" routerLink="/">Aviso de Privacidad</a></li>
+                        <li><a style="color: white;" routerLink="/">Consulta los costos y las comisiones de nuestros productos</a></li>
+                        <li><a style="color: white;" routerLink="/">Sobre Nosotros</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="single-footer-widget">
+                    <h3 style="color: white;">Soporte</h3>
+                    <ul class="list">
+                        <li><a style="color: white;" routerLink="/">Ayuda</a></li>
+                        <li><a style="color: white;" routerLink="/">Preguntas Frecuentes</a></li>
+                        <li><a style="color: white;" routerLink="/">Comunidad</a></li>
+                        <li><a style="color: white;" routerLink="/">Contáctanos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="single-footer-widget">
+                    <h3 style="color: white;">Dirección</h3>
+                    <ul class="footer-contact-info">
+                        <li style="color: white;"><span>Ubicación:</span> Av. Revolución 3000, Ciudad de México, México</li>
+                        <li style="color: white;"><span>Email:</span> <a href="mailto:contacto&#64;banorte.com">contacto&#64;banorte.com</a></li>
+                        <li style="color: white;"><span>Teléfono:</span> <a href="tel:+01800BANORTE">01-800-BANORTE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <p>© Big Bad Code</p>
+        </div>
+    </div>
+    <div class="map-image">
+        <img src="images/map.png" alt="map">
+    </div>
+</footer>
+
+<!-- Optional Footer -->
+<footer
+    class="ctp-footer-area pt-70 d-none"
+    [ngClass]="{'d-block': router.url === '/index-7' || router.url === '/personal' || router.url === '/business' || router.url === '/how-it-works' || router.url === '/about-2' || router.url === '/contact-2'}"
+>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="ctp-footer-widget">
+                    <div class="logo">
+                        <a routerLink="/">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <ul class="social-links">
+                        <span>Encuéntranos en redes sociales</span>
+                        <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="ctp-footer-widget">
+                    <h3>Company</h3>
+                    <ul class="links">
+                        <li>
+                            <a routerLink="/about-two">Sobre Nosotros</a>
+                        </li>
+                        <li>
+                            <a routerLink="/how-it-works">Cómo Funciona</a>
+                        </li>
+                        <li>
+                            <a routerLink="/">Aplicaciones Móviles</a>
+                        </li>
+                        <li>
+                            <a routerLink="/">Reseñas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="ctp-footer-widget">
+                    <h3>Soporte</h3>
+                    <ul class="links">
+                        <li>
+                            <a routerLink="/">Términos y Condiciones</a>
+                        </li>
+                        <li>
+                            <a routerLink="/">Política de Privacidad</a>
+                        </li>
+                        <li>
+                            <a routerLink="/contact-two">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="ctp-footer-widget">
+                    <h3>¿Necesitas Ayuda?</h3>
+                    <ul class="info">
+                        <li>
+                            <span>Ubicación: </span>
+                            Av. Revolución 3000, Ciudad de México, México
+                        </li>
+                        <li>
+                            <span>Email: </span>
+                            <a href="mailto:contacto&#64;banorte.com">contacto&#64;banorte.com</a>
+                        </li>
+                        <li>
+                            <span>Teléfono: </span>
+                            <a href="tel:+01800BANORTE">01-800-BANORTE</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <p>© Klob is proudly created by <a href="https://envytheme.com/" target="_blank">EnvyTheme</a></p>
+        </div>
+    </div>
+</footer>

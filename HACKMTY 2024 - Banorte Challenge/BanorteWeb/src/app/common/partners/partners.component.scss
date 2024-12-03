@@ -1,0 +1,17 @@
+.single-partner-item {
+    text-align: center;
+
+    img {
+        display: inline-block !important;
+        width: auto !important;
+    }
+}
+
+
+
+  ::ng-deep .owl-stage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // Otros estilos que desees aplicar
+  }

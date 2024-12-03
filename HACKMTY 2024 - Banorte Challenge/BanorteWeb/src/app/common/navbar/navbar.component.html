@@ -1,0 +1,188 @@
+<div
+    class="navbar-area"
+    [ngClass]="{'is-sticky': isSticky, 'navbar-style-two': router.url === '/index-3' || router.url === '/index-6'}"
+>
+    <div class="klob-nav">
+        <div
+            class="container"
+            [ngClass]="{'container-fluid': router.url === '/index-7'}"
+        >
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a
+                    class="navbar-brand"
+                    routerLink="/"
+                >
+                    <img src="images/logos/BanorteLogoB.png" >
+                    <img src="images/logos/BanorteLogoB.png" alt="logo"> 
+                </a>
+                <button
+                    (click)="toggleClass()"
+                    class="navbar-toggler"
+                    type="button"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    [class.active]="classApplied"
+                >
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="javascript:void(0)" class="nav-link">
+                                Tesoreria <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="nav-link">
+                                        Administracion y Liquidez
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a routerLink="/" routerLinkActive="active" class="nav-link">
+                                        Manejo de Excedentes
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a routerLink="/" routerLinkActive="active" class="nav-link">
+                                        Pagos
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a routerLink="/" routerLinkActive="active" class="nav-link">
+                                        Tesoreria Inteligente
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a routerLink="/" routerLinkActive="active" class="nav-link">
+                                        Banca Transaccional
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a routerLink="/" routerLinkActive="active" class="nav-link">
+                                        Fondos de Inversión
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a routerLink="/" routerLinkActive="active" class="nav-link">
+                                        Fondos de Inversion
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a routerLink="/signin" routerLinkActive="active" class="nav-link">
+                                About Us
+                            </a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a routerLink="/ia" routerLinkActive="active" class="nav-link">
+                                IA
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0)" class="nav-link">
+                                Pages <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <a routerLink="/about-2" routerLinkActive="active" class="nav-link">
+                                        About Us - 2
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a  routerLinkActive="active" class="nav-link">
+                                        Personal
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a  routerLinkActive="active" class="nav-link">
+                                        Business
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a  routerLinkActive="active" class="nav-link">
+                                        How It Works
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a  routerLinkActive="active" class="nav-link">
+                                        Team
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a  routerLinkActive="active" class="nav-link">
+                                        404 Error Page
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a  routerLinkActive="active" class="nav-link">
+                                        FAQ
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a  routerLinkActive="active" class="nav-link">
+                                        Signin
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a  routerLinkActive="active" class="nav-link">
+                                        Signup
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a  routerLinkActive="active" class="nav-link">
+                                        Contact Us - 2
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a routerLink="/pricing" routerLinkActive="active" class="nav-link">
+                                Pricing
+                            </a>
+                        </li> -->
+                        
+                        <!-- <li class="nav-item">
+                            <a href="javascript:void(0)" class="nav-link">
+                                Blog <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <a routerLink="/blog-grid" routerLinkActive="active" class="nav-link">
+                                        Blog Grid
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a routerLink="/blog-right-sidebar" routerLinkActive="active" class="nav-link">
+                                        Blog Right Sidebar
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a routerLink="/blog-details" routerLinkActive="active" class="nav-link">
+                                        Blog Details
+                                    </a>
+                                </li>
+                            </ul>
+                        </li> -->
+                        <li class="nav-item">
+                            <a routerLink="signin" routerLinkActive="active" class="nav-link">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="others-options">
+                        <a *ngIf="!logeado" routerLink="/signin" class="login-btn">
+                            <i class="flaticon-user"></i> Log In
+                        </a>
+                        <a (click)="logOut()" *ngIf="logeado"  class="login-btn">
+                            <i class="flaticon-user"></i> Log Out
+                        </a>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
