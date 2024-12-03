@@ -40,6 +40,13 @@ Currently, I am focusing on expanding my knowledge in **AI** and **Machine Learn
 - Integrated multiple features, including a landing page, recipes page, family sponsorship functionality, event listings, and a location finder using Google Maps API.
 - Built using React, Vite, Supabase (database and authentication), and Tailwind CSS for styling.
 
+### [HackMTY 2024 - Banorte Onboarding Solution](https://github.com/your-username/Project-Portfolio/tree/main/HackMTY-Banorte-Onboarding) (2024)
+- Participated in HackMTY in Monterrey, competing in the Banorte challenge to improve their customer onboarding process.
+- Built a **web application** using Angular with a modernized UI and integrated **OpenAI's ChatGPT API** for querying Banorte credit card benefits.
+- Developed a **mobile app prototype** in Swift to showcase a streamlined onboarding experience using a sample database.
+- Completed the project within a 24-hour timeframe.
+- **Live demo**: [Banorte Web Project](https://proyecto-hackthon-mty-zwd8.vercel.app/)
+
 ### [Multi-Agent System for Construction Site Surveillance](https://github.com/JoseMartinezM/Project-Portafolio/tree/main/Multi-Agent%20System%20for%20Construction%20Site%20Surveillance) (2024)
 - Developed a multi-agent system integrating drones, cameras, and security personnel for real-time monitoring and threat detection at a construction site.
 - Utilized YOLOv4 for intruder identification and coordinated agent communication for efficient threat response.
