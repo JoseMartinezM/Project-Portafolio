@@ -34,6 +34,12 @@ I excel at solving complex problems through code. Whether it's designing intrica
 Currently, I am focusing on expanding my knowledge in **AI** and **Machine Learning**. This journey includes diving into cutting-edge technologies and methodologies to stay at the forefront of innovation.
 
 ## Projects
+
+### [Food For All GDL](https://github.com/JoseMartinezM/Project-Portafolio/tree/main/FoodForAllGuadalajara) (2024)
+- Designed and developed a web application for a food bank organization in Guadalajara to promote their mission and facilitate community engagement.
+- Integrated multiple features, including a landing page, recipes page, family sponsorship functionality, event listings, and a location finder using Google Maps API.
+- Built using React, Vite, Supabase (database and authentication), and Tailwind CSS for styling.
+
 ### [Multi-Agent System for Construction Site Surveillance](https://github.com/JoseMartinezM/Project-Portafolio/tree/main/Multi-Agent%20System%20for%20Construction%20Site%20Surveillance) (2024)
 - Developed a multi-agent system integrating drones, cameras, and security personnel for real-time monitoring and threat detection at a construction site.
 - Utilized YOLOv4 for intruder identification and coordinated agent communication for efficient threat response.
